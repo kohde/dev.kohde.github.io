@@ -9583,15 +9583,25 @@ body:not(.no-transition) #wrapper, .animsition-overlay { position: relative; opa
 
 .project-story-page-navigation .next { text-align: right; }
 
-blockquote { border-left: 5px solid #55B1DA; }
+.portfolio-meta { padding: 0; margin-bottom: 3rem; }
 
-#logo img { display: block; max-width: 50%; }
+blockquote { border-left: 5px solid #55B1DA; }
 
 .showcase { background-color: #383838; }
 
 .portfolio-single-content { position: relative; }
 
 .portfolio-single-content .si-share { position: absolute; bottom: 0; width: 92%; }
+
+#oc-clients { padding: 30px 0; }
+
+#oc-clients .owl-stage { padding: 0; margin: 0; }
+
+#oc-clients .owl-stage .owl-item { position: relative; height: 60px; }
+
+#oc-clients .owl-stage .owl-item .oc-item { position: absolute; width: 100%; bottom: 0; }
+
+#oc-clients .owl-stage .owl-item .oc-item img { max-height: 60px; }
 
 .contact-block { padding: 45px; padding-left: 90px; background-color: #FFFFFF; }
 
@@ -9609,11 +9619,19 @@ blockquote { border-left: 5px solid #55B1DA; }
 
 .image-banner-with-text { position: relative; }
 
-.image-banner-with-text .image-banner-text { position: absolute; top: 5rem; left: 2rem; color: #eeeeee; font-size: xxx-large; }
+.image-banner-with-text .image-banner-text { position: absolute; top: 5rem; left: 2rem; color: #eeeeee; font-size: 3rem; }
 
 .middle { text-align: center; margin: 2rem auto; font-size: 1.25rem; }
 
 .middle h { font-weight: bold; }
+
+#logo { border-right: none !important; }
+
+#logo img { display: block; max-width: 50%; }
+
+#primary-menu ul { border-right: none !important; }
+
+.heading-block:after { width: 60px !important; border-top: 5px solid #C7C7C7 !important; }
 
 /* ------------------------------------------------------------------------------- CUSTOM STYLES --------------------------------------------------------------------------------- */
 

@@ -9591,6 +9591,8 @@ body:not(.no-transition) #wrapper, .animsition-overlay { position: relative; opa
 
 blockquote { border-left: 5px solid #55B1DA; }
 
+#portfolio.portfolio.portfolio-full { width: 100%; }
+
 .showcase { background-color: #383838; }
 
 #oc-clients { padding: 30px 0; }
@@ -9627,11 +9629,19 @@ blockquote { border-left: 5px solid #55B1DA; }
 
 .middle h { font-weight: bold; }
 
-#logo { border-right: none !important; }
+#logo { border-right: none !important; padding-left: 1.5em; }
 
 #logo img { display: block; max-width: 50%; }
 
+@media only screen and (max-width: 991.98px) { #logo { padding-left: 1.5em !important; } }
+
 #primary-menu ul { border-right: none !important; }
+
+@media (max-width: 991.98px) { #primary-menu ul li { padding-left: 1em; } }
+
+@media (max-width: 575.98px) { #primary-menu-trigger { left: 0 !important; } }
+
+#primary-menu-trigger { font-size: 1.3em !important; }
 
 .heading-block:after { width: 60px !important; border-top: 5px solid #C7C7C7 !important; }
 
